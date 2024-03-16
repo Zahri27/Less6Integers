@@ -4,7 +4,7 @@ public class Integers {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int number = random.nextInt(99999) + 11;
+        int number = random.nextInt(100011) + 11;
         System.out.println("Сгенерированное число: " + number);
         int sum = 0;
         int originalNumber = number;
